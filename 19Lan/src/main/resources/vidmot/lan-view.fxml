@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="135.0" prefWidth="410.0" vgap="5.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.LanController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="111.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.00000762939453" minWidth="10.0" prefWidth="283.33333333333326" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label prefHeight="146.0" prefWidth="309.0" text="Vextir:" />
+      <Label prefHeight="146.0" prefWidth="309.0" text="Fjöldi ára:" GridPane.rowIndex="1" />
+      <Label prefHeight="146.0" prefWidth="309.0" text="Lánaupphæð" GridPane.rowIndex="2" />
+      <Label prefHeight="146.0" prefWidth="309.0" text="Greiðslur á mánuði" GridPane.rowIndex="3" />
+      <TextField fx:id="fxVextir" alignment="BOTTOM_RIGHT"  promptText="Sláðu inn vexti" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></TextField>
+      <TextField fx:id="fxFjoldiAra" alignment="BOTTOM_RIGHT"  promptText="Sláðu inn fjölda ára " GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></TextField>
+      <TextField fx:id="fxLanaupphaed" alignment="BOTTOM_RIGHT"  promptText="Sláðu inn lánaupphæð" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></TextField>
+      <TextField fx:id="fxGreidslaManudi" alignment="BOTTOM_RIGHT" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></TextField>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#onReiknaLan" prefHeight="25.0" prefWidth="78.0" text="Reikna lán" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="316.0" prefWidth="324.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.KosningController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <ScrollPane>
+         <content>
+            <ListView fx:id="fxFrambod" onMouseClicked="#onValinFrambjodandi" prefHeight="200.0" prefWidth="286.0" />
+         </content>
+      </ScrollPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="215.0" text="Fjöldi meðmælenda" />
+      <HBox prefHeight="0.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="fxFjoldi" alignment="CENTER" prefHeight="17.0" prefWidth="179.0" text="0" />
+            <ProgressBar fx:id="fxProgress" prefWidth="200.0" progress="0.0" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
