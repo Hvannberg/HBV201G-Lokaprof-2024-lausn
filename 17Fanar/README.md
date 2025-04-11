@@ -16,3 +16,5 @@ Sýnið hvaða hlutir (einn eða fleiri) þurfa að hafa atburðahandlera og gef
 
 Vísbending: Í næstsíðasta dæmi prófsins sést dæmi um viðmótstré
 
+
+<img src="https://github.com/Hvannberg/HBV201G-Lokaprof-2024-lausn/main/17Fanar/Myndir/SkjaskotFanar.png" alt="Fanar" width="400"/>
