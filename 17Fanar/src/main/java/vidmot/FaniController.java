@@ -63,6 +63,7 @@ public class FaniController {
             fxMynd.setImage(images[items.indexOf(newValue)]);
             mp[items.indexOf(newValue)].play();
             ((Button) ((HBox) fxLand.getParent()).getChildren().getLast()).setText(PAUSE);
+            currentIndex = items.indexOf(newValue);
         });
     }
 
