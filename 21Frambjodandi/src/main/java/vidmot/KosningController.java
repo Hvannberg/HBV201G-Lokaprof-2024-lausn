@@ -8,6 +8,13 @@ import javafx.scene.input.MouseEvent;
 import vinnsla.AllirFrambjodendur;
 import vinnsla.Frambjodandi;
 
+/******************************************************************************
+ *  Nafn    : Ebba Þóra Hvannberg
+ *  T-póstur: ebba@hi.is
+ *  Lýsing  : Dæmi 21 í lokaprófi HBV201G 2024
+ *
+ *****************************************************************************/
+
 public class KosningController {
 
     // tilviksbreytur fyrir viðmótshluti
@@ -25,7 +32,7 @@ public class KosningController {
     // frumstilling á controller
     // initialization of a controller
     public void initialize() {
-        fxFrambod.setItems (AllirFrambjodendur.lesaFrambod());
+        fxFrambod.setItems(AllirFrambjodendur.lesaFrambod());
         fxFrambod.getSelectionModel().selectFirst();
         veljaFrambjodanda();
     }
@@ -42,7 +49,7 @@ public class KosningController {
     private void veljaFrambjodanda() {
         Frambjodandi f = fxFrambod.getSelectionModel().getSelectedItem();
         int fjoldi = f.getFjoldiMedmaela();
-        fxFjoldi.setText (fjoldi+"");
-        fxProgress.setProgress(fjoldi/1500.0);
+        fxFjoldi.setText(fjoldi + "");
+        fxProgress.setProgress(fjoldi / 1500.0);
     }
 }
