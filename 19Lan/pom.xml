@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>vidmot</groupId>
-  <artifactId>Spurning4</artifactId>
+  <artifactId>19Lan</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Spurning4</name>
+  <name>19Lan</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
