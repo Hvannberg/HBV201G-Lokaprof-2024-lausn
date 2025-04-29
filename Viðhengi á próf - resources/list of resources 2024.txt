@@ -1,0 +1,8 @@
+1 https://prof.snara.is/
+2 https://openjfx.io/javadoc/21/
+3 https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/doc-files/cssref.html#typenumber
+4 vocabulary - PDF skjal 
+5 leiðbeiningar um útfyllingu skanblaða - PDF skjal
+6 Scenario GoOut - PDF skjal
+7 Lan.java - PDF skjal
+8 java cheatsheet 
